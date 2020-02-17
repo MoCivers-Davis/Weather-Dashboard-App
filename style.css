@@ -6,9 +6,30 @@
     padding-bottom: 4pt;
     } 
 
-    .card-body {
-        width: 30%;
+    .column { 
+        width:30%;
         background-color: lightgray;
+    }
+
+    .card-body { 
+        width:95%;
+        background-color: lightgray;
+    }
+
+    .columnTwo { 
+        width:69%;
+        float: right;
+        margin-left: 1%;
+    }
+
+    .weatherContent { 
+        width:90%;
+        background-color: lightgray;
+        padding-top: 15pt;
+        padding-left: 10pt;
+        padding-right: 5pt;
+        padding-bottom: 15pt;
+        border-style: solid;
     }
 
     Example
@@ -59,4 +80,8 @@
         width: 85%;
         border-style: solid;
         background-color: white;
+    }
+
+    .futureWeather {
+        margin-top: 2%;
     }

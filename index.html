@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -16,33 +16,45 @@
     <div class="header" id="myHeader">
         <h2>Mo's Weather Dashboard</h2>
     </div>
-    <div class="card">
-        <div class="card-body">
-            <h5 class="searchCity">Search for a City:</h5>
-            <form class="example" action="action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-            <div class="citiesPrevSearched">
-                <h6 class="city1"> City1 Place Holder</h6>
-                <div class="city2"> City2 Place Holder</div>
-                <h6 class="city3"> City3 Place Holder</h6>
-                <h6 class="city4"> City4 Place Holder</h6>
-                <h6 class="city5"> City5 Place Holder</h6>
-                <h6 class="city6"> City6 Place Holder</h6>
-                <h6 class="city7"> City7 Place Holder</h6>
-                <h6 class="city8"> City8 Place Holder</h6>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="card-body">
+                    <div class="searchCity">Search for a City:</div>
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <div class="citiesPrevSearched">
+                        <div class="city1"> City1 Place Holder</div>
+                        <div class="city2"> City2 Place Holder</div>
+                        <div class="city3"> City3 Place Holder</div>
+                        <div class="city4"> City4 Place Holder</div>
+                        <div class="city5"> City5 Place Holder</div>
+                        <div class="city6"> City6 Place Holder</div>
+                        <div class="city7"> City7 Place Holder</div>
+                        <div class="city8"> City8 Place Holder</div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="columnTwo">
+            <div class="card">
+                <div class="card-body" id="master">
+                    <div class="weatherContent">
+                        <div class="currentCity">Current City Place Holder</div>
+                        <div class="temperature">Temperature:</div>
+                        <div class="humidity">Humidity:</div>
+                        <div class="wind-peed">Wind Speed:</div>
+                        <div class="uv-Index">UV Index:</div>
+                    </div>
+                    <div class="futureWeather">
+                        <div class="fiveDayWeather">5 Day Weather Forecast:</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="card">
-        <h4 class="currentCity">Current City</h4>
-        <h6 class="temperature">Temperature</h6>
-        <h6 class="humidity">Humidity</h6>
-        <h6 class="wind-peed">Wind Speed</h6>
-        <h6 class="UV Index">Humidity</h6>
-      </div>
-
 </body>
 
 </html>
