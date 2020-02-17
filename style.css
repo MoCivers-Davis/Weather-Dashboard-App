@@ -2,12 +2,12 @@
     background-color: navy;
     text-align: center;
     color: oldlace;
-    padding-top: 3pt;
-    padding-bottom: 3pt;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
     } 
 
     .card-body {
-        width: 35%;
+        width: 30%;
         background-color: lightgray;
     }
 
@@ -51,10 +51,11 @@
     }
     .citiesPrevSearched {
         color: darkgrey;
-        padding-top: 2pt;
-        padding-left: 1pt;
+        padding-top: 6pt;
+        padding-left: 10pt;
         padding-right: 5pt;
-        padding-bottom: 1pt;
+        padding-bottom: 6pt;
+        margin-top: 5%;
         width: 85%;
         border-style: solid;
         background-color: white;
