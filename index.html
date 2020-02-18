@@ -10,6 +10,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
@@ -22,7 +23,7 @@
                 <div class="card-body">
                     <div class="searchCity">Search for a City:</div>
                     <form class="example" action="action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
+                        <input type="text" placeholder="Search.." name="search" class="dreamCity">
                         <button type="submit"><i class="fa fa-search"></i></button>
                     </form>
                     <div class="citiesPrevSearched">
@@ -45,8 +46,8 @@
                         <div class="currentCity">Current City Place Holder</div>
                         <div class="temperature">Temperature:</div>
                         <div class="humidity">Humidity:</div>
-                        <div class="wind-peed">Wind Speed:</div>
-                        <div class="uv-Index">UV Index:</div>
+                        <div class="wind-speed">Wind Speed:</div>
+                        <div class="uv-index">UV Index:</div>
                     </div>
                     <div class="futureWeather">
                         <div class="fiveDayWeather">5 Day Weather Forecast:</div>
@@ -55,6 +56,8 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
 </body>
 
 </html>
