@@ -5,7 +5,7 @@ $(".submitBt").on("click", function () {
     getWeather(cityName);
     getFiveDay(cityName);
     console.log(cityName);
-    $("ol").append(cityName);
+    $(".cityList").append(cityName);
 })
 // ==========Open Weather API================
 let APIKey = "6adc5c999e3d81602171dd96dbf6ecca";
@@ -28,6 +28,7 @@ function getWeather(cityName) {
             $(".temperature").text("Temperature (F): " + response.main.temp);
             $(".uv-index").text("UV Index: " + response.main.temp);
 
+        
             let tempF = (response.main.temp - 273.15) * 1.80 + 32;
             $(".tempF").text("Temperature (Kelvin) " + tempF);
 
