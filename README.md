@@ -12,4 +12,4 @@ The weather app is designed for everyday use and can be beneficial to the genrea
 The weather app is designed utilizng HTML, CSS, Bootstrap, JavaScript, and Third-Party-APIs to include the API from OpenWeather.com.
 
 ## Challenges
-Working with third party API's was a bit of a challenge, specifically getting the 5 day weather forecast to display.  Another challenge on mine was activating the cities that were saved in the search history to display current weather conditions again.  
+Working with third party API's was a bit of a challenge, specifically getting the 5 day weather forecast to display. Another challenge on mine was activating the cities that were saved in the search history to display current weather conditions again.  
