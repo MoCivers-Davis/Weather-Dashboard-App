@@ -1,4 +1,4 @@
-!"Weather-Dashboard-App" (Homework/Weather-Dashboard-App)
+![Weather-Dashboard-App](/Homework/Weather-Dashboard-App.png)
 
 # Weather-Dashboard-App
 
