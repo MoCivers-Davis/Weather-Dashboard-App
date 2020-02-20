@@ -2,7 +2,7 @@
 
 # Weather-Dashboard-App
 
-## Overview
+## App Overview
 The Weather Dashboard App allow users to easily retrieve weather data for multiple cities on demand. The weather app allow users to recive weather data for the curent day to include current temperature, wind speed, humidity, etc... Additionally the app is can be used as a tool for tracking the future five day forecast.  
 
 ## Why
