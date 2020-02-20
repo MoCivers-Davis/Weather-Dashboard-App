@@ -1,4 +1,4 @@
-![Weather-Dashboard-App](/Weather-App.png)
+![Weather-Dashboard-App](/Weather-app.png)
 
 # Weather-Dashboard-App
 
