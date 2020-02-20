@@ -14,5 +14,4 @@ The weather app is designed utilizng HTML, CSS, Bootstrap, JavaScript, and Third
 ## Challenges
 Working with third party API's was a bit of a challenge, specifically getting the 5 day weather forecast to display. Another challenge on mine was activating the cities that were saved in the search history to display current weather conditions again.  
 ## Links to App
-https://github.com/MoCivers-Davis/Weather-Dashboard-App
 https://mocivers-davis.github.io/Weather-Dashboard-App/
