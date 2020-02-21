@@ -31,6 +31,7 @@ function getWeather(cityName) {
             $(".humidity").text("Humidity: " + response.main.humidity);
             $(".temperature").text("Temperature (F): " + response.main.temp);
             $(".uv-index").text("UV Index: " + response.main.temp);
+    
 
         
             let tempF = (response.main.temp - 273.15) * 1.80 + 32;
@@ -51,5 +52,17 @@ function getFiveDay(cityName) {
     })
         .then(function (response) {
             console.log(response);
-        })
+            var results = response.data;
+            console.log(response.list[0].main.temp);
+
+            for (var i = 0; i < 5; i++) {
+                var futureWeather = $("<div>");
+                var para = document.createElement("p");
+                var node = document.createTextNode(response.list[i].main.temp);
+                para.appendChild(node);
+                futureWeather.append(para)
+                $(".fiveDayDisplay").prepend(futureWeather);
+                        }
+            
+    })
 }
