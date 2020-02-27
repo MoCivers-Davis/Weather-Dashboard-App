@@ -58,8 +58,14 @@ function getFiveDay(cityName) {
             for (var i = 0; i < 5; i++) {
                 var futureWeather = $("<div>");
                 var para = document.createElement("p");
-                var node = document.createTextNode(response.list[i].main.temp);
-                para.appendChild(node);
+                var fiveDayTemp = document.createTextNode(response.list[i].main.temp);
+
+                var fiveDayWeather = document.createTextNode(response.list[i].weather[0]); //create five day weather variable//
+                para.appendChild(fiveDayWeather);
+                futureWeather.append(para)
+                $(".fiveDayDisplay").prepend(futureWeather);
+
+                para.appendChild(fiveDayTemp);
                 futureWeather.append(para)
                 $(".fiveDayDisplay").prepend(futureWeather);
                         }
